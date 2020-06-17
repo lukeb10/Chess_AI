@@ -1,0 +1,31 @@
+# Installation Instructions
+
+As mentioned in the README section, the chess program runs independently from the GUI.
+
+To install and run the chess game refer to the instructions below.
+There are two ways to unpack and run the program:
+
+Option 1 (From main directory):
+1) tar -xvzf Chat_Alpha_src.tar.gz
+2) make
+3) make test
+
+Option 2 (From bin directory):
+1) tar -xvzf Chat_Alpha_src.tar.gz
+2) make
+3) cd bin
+4) ./play
+
+
+To install and run client/server features, type:
+    tar -xvzf Chat_Beta_src.tar.gz
+
+To run the client-side GUI:
+1) make gui 
+2) cd bin
+3) ./gui bondi.eecs.uci.edu 20000
+
+To run the server:
+1) make server
+2) cd bin
+3) ./server 20000
